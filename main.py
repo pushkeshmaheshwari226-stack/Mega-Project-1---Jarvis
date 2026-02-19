@@ -8,7 +8,7 @@ from openai import OpenAI
 # object creation
 recognizer=sr.Recognizer()
 engine=pyttsx3.init() 
-new_api= "f86250efecbc4ef49a0384b0948d607b"
+new_api= "API KEY HERE"
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
@@ -104,3 +104,4 @@ if __name__=="__main__":
         except Exception as e:
 
             print("Error; {}".format(e))
+
