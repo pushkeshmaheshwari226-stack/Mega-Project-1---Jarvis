@@ -12,7 +12,7 @@ new_api= "f86250efecbc4ef49a0384b0948d607b"
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="API KEY HERE"
 )
 
 
@@ -102,4 +102,5 @@ if __name__=="__main__":
                 processCommand(command)
 
         except Exception as e:
+
             print("Error; {}".format(e))
